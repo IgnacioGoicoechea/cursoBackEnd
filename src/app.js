@@ -23,17 +23,6 @@ res.send(addProduct)
      })
 
 
-  app.get('/productos', (req, res)=> {
-    res.send(getProducts)
-     })
-
-app.get('/editar', (req, res)=> {
-    res.send(updateProduct)
-     })
-app.get('/borrar', (req, res)=> {
-    res.send(deleteProduct)
-     })
-
 
  app.listen(PORT, () => {
     console.log(`servidor funcionando del backend del puerto ${PORT}`)
